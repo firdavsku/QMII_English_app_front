@@ -35,10 +35,24 @@
     transition: all 0.3s ease; /* Bosilganda rang o'zgarishini silliq qilish */
 }
 
-.read-more1:hover {
-    background-color: #000; /* Tugmani bosganda yoki ustiga kursorni olib kelganda fon rangi */
-    color: #fff; /* Tugma matni rangi */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.single-cat {
+    flex: 1;
+    margin-bottom: 20px; /* Optional: Add margin between cards */
+}
+
+
+.slider-area {
+    background-image: url('./amaliylar/images/Amaliy1\ logo.jpg'); /* Rasmingizning manbasini o'zgartiring */
+    background-size: cover;
+    background-position: center;
+}
+
 
 </style>
 <body>
@@ -135,7 +149,7 @@
                                 <div class="hero__caption">
                                     <!-- <span data-animation="fadeInLeft" data-delay=".2s">Popular Online Courses</span> -->
                                     <h2 data-animation="fadeInLeft" data-delay=".4s"> English for energy</h2> <br>
-                                    <h2></h2>
+                                    <h2>English manual application</h2>
                                     <!-- Hero-btn -->
                                     <!-- <div class="hero__btn">
                                         <a href="industries.html" class="btn hero-btn"  data-animation="fadeInLeft" data-delay=".8s">Get Started</a>
@@ -143,9 +157,9 @@
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-5">
-                                <div class="hero-man d-none d-lg-block f-right" data-animation="jello" data-delay=".4s">
+                                <!-- <div class="hero-man d-none d-lg-block f-right" data-animation="jello" data-delay=".4s">
                                     <img src="assets/img/logo/qmiilogo3.png" alt="">
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -161,8 +175,8 @@
                     <div class="cl-xl-7 col-lg-8 col-md-10">
                         <!-- Section Tittle -->
                         <div class="section-tittle text-center mb-70">
-                            <span>QMII English manual app</span>
-                            <h2>QMII English language guide</h2>
+                            <span> English for Energy manual app</span>
+                            <h2>English learning language for Energy industy</h2>
                         </div> 
                     </div>
                 </div>
@@ -310,19 +324,18 @@
                             <!-- Section Tittle -->
                             <div class="section-tittle mb-35">
                                 
-                                <h2>Dastur haqida </h2>
+                                <h2> About application </h2>
                             </div>
-                            <p>Ushbu dastur Qarshi muhandislik iqtisodiyot instituti Xorijiy tillar fakulteti Ingliz tili fanidan amaliy elektron dasturi. Ushbu dastur orqali fanni o'rganuvchi va o'zlashtiruvchi talabalar barcha ma'lumotlarni va materiallarni online formatda olishlari va foydalanishlari mumkin. </p> <br><p>Dastur imkoniyatlari</p>
+                            <p>Three programs of the Institute of Engineering Economics, Faculty of Foreign Languages, practical electronic program "English for Energy" from the subject of English. Through this program, all the information and materials can be downloaded and downloaded in an online format, including students.</p>
                             <ul>
-                                <li><span class="flaticon-business"></span> Online formatda til o'rganish</li>
-                                <li><span class="flaticon-communications-1"></span> Fandagi barcha qo'llanma va materiallar</li>
-                                <li><span class="flaticon-graduated"></span>Amaliy mashg'ulotlar uchun video va audio kontentlar</li>
-                                <li><span class="flaticon-tools-and-utensils"></span> Mashg'ulotlarni o'zlashtirish uchun nazorat savollar</li>
+                                <li><span class="flaticon-business"></span> Online language learning</li>
+                                <li><span class="flaticon-communications-1"></span> All manuals and materials in science </li>
+                                <li><span class="flaticon-graduated"></span>Video and audio content for practical training</li>
+                                <li><span class="flaticon-tools-and-utensils"></span> Control questions to master the lessons </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12">
-                        <!-- about-img -->
+                    <!-- <div class="col-lg-6 col-md-12">
                         <div class="about-img ">
                             <div class="about-font-img d-none d-lg-block">
                                 <img src="assets/img/gallery/about2.png" alt="">
@@ -331,7 +344,7 @@
                                 <img src="assets/img/gallery/about1.png" alt="">
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -348,7 +361,7 @@
                         <div class="col-lg-12">
                             <div class="footer-copy-right text-center">
                                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Dasturchi &copy;<script>document.write(new Date().getFullYear());</script><a href="https://t.me/elmurodovfirdavs" target="_blank"> Firdavs Elmuradov  </a>
+  Developer:  &copy;<script>document.write(new Date().getFullYear());</script><a href="https://t.me/elmurodovfirdavs" target="_blank"> Firdavs Elmuradov  </a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                             </div>
                         </div>
@@ -402,5 +415,5 @@
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
     
-    </body>
+</body>
 </html>

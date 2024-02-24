@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> English manual app </title>
+    <title> English for Energy </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -42,7 +42,19 @@
     transition: all 0.3s ease; /* Bosilganda rang o'zgarishini silliq qilish */
     text-align: center; /* Matnni markazga joylashtirish */
 }
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.single-cat {
+    flex: 1;
+    margin-bottom: 20px; /* Optional: Add margin between cards */
+}
+
+.single-cat:hover {
+    background-color: #f8f9fa !important;  /* Card background hower */
+}
 </style>
 <body>
     <!--? Preloader Start -->
@@ -76,7 +88,7 @@
                             <div class="main-menu d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">                                                                                          
-                                        <li><a href="../index.html">Asosiy</a></li>
+                                        <li><a href="./index.html">Main page</a></li>
                                         
                                     </ul>
                                 </nav>
@@ -97,11 +109,11 @@
     <main>
         <div class="categories-area section-padding30">
             <div class="container">
-                <div class="row justify-content-sm-center">
+                <div class="row justify-content-sm-center" style="display: flex; flex-wrap: wrap;">
                     <div class="cl-xl-7 col-lg-8 col-md-10">
                         <!-- Section Tittle -->
                         <div class="section-tittle text-center mb-70">
-                            <h2>QMII Ingliz tili qo'llanmasi</h2>
+                            <h2>English for Energy</h2>
                         </div> 
                     </div>
                 </div>
@@ -109,402 +121,361 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                             <div class="cat-cap">
-                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/Amaliy1 logo.jpg" alt="">
-                                <h5><a href="amaliylar/amaliy1.html">What is energy?</a></h5>
-                                <p>What is energy?</p>
-                                <a class="read-more1" href="amaliylar/amaliy1.html" style="align-self: center;">Kirish</a>
+                                <img style="height: 240px; width: 200px; object-fit: cover;" src="amaliylar/images/Amaliy1 logo.jpg" alt="">
+                                <h5>What is energy?</h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy1.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/potential-energy.png" alt="">
+                                <h5>Forms of Energy: potential energy</h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy2.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/kinetic-energy.png" alt="">
+                                <h5>Forms of energy: Kinetic energy</h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy3.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/nonr2.jpg" alt="">
+                                <h5>Forms of energy: Nonrenewable energy</h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy4.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/coal.jpg" alt="">
+                                <h5>Coal basics </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy5.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/natural-gaz.png" alt="">
+                                <h5> Natural gas </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy6.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/oil-petrolium.png" alt="">
+                                <h5> Oil (petroleum) basics </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy7.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/nuclear-power.png" alt="">
+                                <h5> Nuclear power </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy8.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/renewable-energy1.png" alt="">
+                                <h5> Renewable energy </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy9.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/fossil-fuels-1.png" alt="">
+                                <h5> Fossil fuels	 </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy10.html" style="align-self: center;">Enter</a>
+                            </div>  
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/bio-fuel.jpg" alt="">
+                                <h5> Bio fuel basics	 </h5>
+                                <a class="read-more1" href="amaliylar/amaliy11.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/geothermal.png" alt="">
+                                <h5> Geothermal basics </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy12.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/hydropower.jpeg" alt="">
+                                <h5> Hydropower basics </h5>
+                                <a class="read-more1" href="amaliylar/amaliy13.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/solar.jpg" alt="">
+                                <h5> Solar basics </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy14.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/wind-power.jpg" alt="">
+                                <h5> Wind basics </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy15.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/reduce-energy.jpg" alt="">
+                                <h5> Strategies for reducing energy </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy16.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/type-energy.png" alt="">
+                                <h5> Types of energy  </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy17.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/climate-change.png" alt="">
+                                <h5> Climate change  </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy18.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/energy-crisis.jpg" alt="">
+                                <h5> Energy crisis  </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy19.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/future-enerhy.png" alt="">
+                                <h5>The future of energy  </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy20.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/clean-energy.png" alt="">
+                                <h5> Clean energy  </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy21.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/disadvantages-energy.jpg" alt="">
+                                <h5> Disadvantages of clean energy  </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy22.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/home-energy.jpg" alt="">
+                                <h5> How we use energy in homes  </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy23.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/thomas-edison.jpg" alt="">
+                                <h5> Thomas Edison  </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy24.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/einstein.webp" alt="">
+                                <h5> Albert Einstein  </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy25.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/faradey.jpg" alt="">
+                                <h5> Michael Faraday  </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy26.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/isaac-newton.jpg" alt="">
+                                <h5> Isaac Newton  </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy27.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/robert.jpg" alt="">
+                                <h5> Robert Oppenheimer  </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy28.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/nicola-tesla.jpeg" alt="">
+                                <h5> Nikola Tesla  </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy29.html" style="align-self: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50" style="display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="cat-cap">
+                                <img style="height: 200px; width: 200px; object-fit: cover;" src="amaliylar/images/marie curie.jpg" alt="">
+                                <h5> Marie Curie  </h5>
+                                <!-- <p>What is energy?</p> -->
+                                <a class="read-more1" href="amaliylar/amaliy30.html" style="align-self: center;">Enter</a>
                             </div>
                         </div>
                     </div>
                     
                     
-                    
-                    
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy2.html">Amaliy mashg'ulot 2</a></h5>
-                                <p>Ikkinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy2.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
 
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy3.html">Amaliy mashg'ulot 3</a></h5>
-                                <p>Uchinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy3.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy4.html">Amaliy mashg'ulot 4</a></h5>
-                                <p>To'rtinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy4.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy5.html">Amaliy mashg'ulot 5</a></h5>
-                                <p>Beshinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy5.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy6.html">Amaliy mashg'ulot 6</a></h5>
-                                <p>Oltinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy6.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy7.html">Amaliy mashg'ulot 7</a></h5>
-                                <p>Yettinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy7.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy8.html">Amaliy mashg'ulot 8 </a></h5>
-                                <p>Sakkizinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy8.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy9.html">Amaliy mashg'ulot 9</a></h5>
-                                <p>To'qqizinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy9.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy10.html">Amaliy mashg'ulot 10</a></h5>
-                                <p>O'ninchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy10.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy11.html">Amaliy mashg'ulot 11</a></h5>
-                                <p>O'n birinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy11.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy12.html">Amaliy mashg'ulot 12</a></h5>
-                                <p>O'n ikkinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy12.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy13.html">Amaliy mashg'ulot 13</a></h5>
-                                <p>O'n uchinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy13.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy14.html">Amaliy mashg'ulot 14</a></h5>
-                                <p>O'n to'rtinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy14.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy15.html">Amaliy mashg'ulot 15</a></h5>
-                                <p>O'n beshinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy15.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy16.html">Amaliy mashg'ulot 16</a></h5>
-                                <p>O'n oltinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy16.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy17.html">Amaliy mashg'ulot 17</a></h5>
-                                <p>O'n yettinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy17.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy18.html">Amaliy mashg'ulot 18</a></h5>
-                                <p>O'n sakkizinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy18.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy19.html">Amaliy mashg'ulot 19</a></h5>
-                                <p>O'n to'qqizinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy19.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy20.html">Amaliy mashg'ulot 20</a></h5>
-                                <p>Yigirmanchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy20.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy21.html">Amaliy mashg'ulot 21</a></h5>
-                                <p>Yigirma birinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy21.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy22.html">Amaliy mashg'ulot 22</a></h5>
-                                <p>Yigirma ikkinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy22.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy23.html">Amaliy mashg'ulot 23</a></h5>
-                                <p>Yigirma uchinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy23.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy24.html">Amaliy mashg'ulot 24</a></h5>
-                                <p>Yigirma to'rtinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy24.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy25.html">Amaliy mashg'ulot 25</a></h5>
-                                <p>Yigirma beshinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy25.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy26.html">Amaliy mashg'ulot 26</a></h5>
-                                <p>Yigirma oltinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy26.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy27.html">Amaliy mashg'ulot 27</a></h5>
-                                <p>Yigirma yettinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy27.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy28.html">Amaliy mashg'ulot 28</a></h5>
-                                <p>Sakkizinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy28.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy29.html">Amaliy mashg'ulot 29</a></h5>
-                                <p>Yigirma to'qqizinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy29.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <div class="cat-icon">
-                                <span class="flaticon-web-design"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="amaliylar/amaliy30.html">Amaliy mashg'ulot 30 </a></h5>
-                                <p>O'ttizinchi mavzuning amaliy mashg'ulot ma'lumotlari</p>
-                                <a class="read-more1" href="amaliylar/amaliy30.html">Kirish</a> <!-- Tuzatilgan qism -->
-                            </div>
-                        </div>
-                    </div>
-
-                   
-                 
-                    
                 </div>
                 <!-- Section Button -->
                
@@ -515,6 +486,9 @@
      
         
     </main>
+
+
+
     <footer>
         <!--? Footer Start-->
         <div class="footer-area footer-bg">
